@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+  background-color: #2f353a;
+  color: white;
+  padding: 1rem 3rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__left img{
+    height: 3rem;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__right button{
+    padding: 0.4rem 0.6rem;
+}

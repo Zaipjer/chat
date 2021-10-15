@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1rem;
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+}
+
+.menuopen{
+    transform: translateX(-250px);
+    -webkit-transform: translateX(-250px);
+    -moz-transform: translateX(-250px);
+    -ms-transform: translateX(-250px);
+    -o-transform: translateX(-250px);
+}
+
+.main__posts{
+    margin-top: 2rem;
+}
+
+.main__input{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.main__inputForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: none;
+}
+
+.main__inputFormText{
+    margin-top: 1rem !important;
+}

@@ -1,0 +1,27 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.app__central{
+    display: flex;
+    max-width: 100vw;
+    /*width: 100vw;
+    max-width: 100vw;
+    */margin: 0rem;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+}
+
+.app__central.displayed {
+    transform: translateX(270px);
+    -webkit-transform: translateX(270px);
+    -moz-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+    -o-transform: translateX(270px);
+}
